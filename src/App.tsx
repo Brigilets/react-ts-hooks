@@ -4,16 +4,22 @@ import './App.css';
 import UseStateComponent from './components/UseStateComponent';
 import UseEffectComponent from './components/UseEffectComponent';
 import UseContextComponent from './components/UseContextComponent';
+import UseReducerComponent from './components/UseReducerComponent';
+import UseRefComponent from './components/UseRefComponent';
 
 function App() {
   return (
     <div>
-      <h1>UseState </h1>
+      <h1>useState </h1>
       <UseStateComponent/>
-      <h1>UseEffect</h1>
+      <h1>useEffect</h1>
       <UseEffectComponent/>
-      <h1>UseContext</h1>
+      <h1>useContext</h1>
       <UseContextComponent/>
+      <h1>useReducer</h1>
+      <UseReducerComponent/>
+      <h1>useRef</h1>
+      <UseRefComponent/>
     </div>
   );
 }
