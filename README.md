@@ -1,6 +1,6 @@
 ### React Hooks with Typescript
 
-Learning to implement Typescript with React components
+Learning to implement Typescript with React hooks
 
 ### Runing project on localhost:3000 :
 
